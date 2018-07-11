@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <android.support.v4.view.ViewPager
+       android:id="@+id/vp_warehouse_select_detail"
+       android:layout_width="match_parent"
+       android:background="@color/warehouse_main_background"
+       android:layout_height="0dp"
+       android:layout_weight="1"/>
+    <View
+        android:background="@color/tabBackground"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_warehouse_select"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        style="@style/CustomTab"/>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="選擇處理方式"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="30sp" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_weight="2"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp">-->
+    <!--<Button-->
+        <!--android:id="@+id/btn_warehouse_select_zone"-->
+        <!--android:layout_margin="40dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="分區處理"-->
+        <!--android:textSize="25sp"-->
+        <!--android:textColor="@color/white"-->
+
+        <!--android:background="@color/colortest_middleblue"-->
+        <!--/>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_weight="2"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp">-->
+    <!--<Button-->
+        <!--android:id="@+id/btn_warehouse_select_country"-->
+        <!--android:layout_margin="40dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="掃描國家條碼"-->
+        <!--android:textSize="25sp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:background="@color/colortest_middleblue"-->
+        <!--/>-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

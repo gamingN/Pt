@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/bt_package_create"
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="120dp"
+        android:text="生成一個袋子條碼"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colortest_middleblue"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bt_package_scanner_two"
+        android:layout_width="95dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="39dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colortest_middleblue"
+        android:text="掃包裹條碼綁定訂單"
+        android:layout_below="@+id/bt_package_create"
+        android:layout_alignStart="@+id/bt_package_create"
+        android:padding="5dp"
+
+        android:layout_marginRight="5dp"
+        android:layout_alignEnd="@+id/bt_package_create" />
+
+    <TextView
+        android:id="@+id/tv_package_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="180dp"
+        android:layout_below="@+id/bt_package_create"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bt_package_commit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:text="確定"
+        android:layout_below="@+id/tv_package_id"
+         />
+
+    <TextView
+        android:id="@+id/tv_package_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textSize="18sp"
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/bt_package_scanner_one"-->
+        <!--android:layout_width="95dp"-->
+        <!--android:layout_height="110dp"-->
+        <!--android:layout_alignTop="@+id/bt_package_scanner_two"-->
+        <!--android:padding="5dp"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:text="掃包裹條形碼綁定訂單"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:background="@color/colortest_middleblue"-->
+        <!--android:layout_alignBottom="@+id/bt_package_scanner_two"-->
+        <!--android:layout_alignEnd="@+id/bt_package_create"-->
+         <!--/>-->
+
+</LinearLayout>

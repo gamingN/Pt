@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="掃描客戶碼"
+            android:textColor="@color/title"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_check_old"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看未完成訂單"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:background="@color/colortest_middleblue"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+        <Button
+            android:id="@+id/bt_scanner_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:background="@mipmap/button_scan"
+            />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_weight="2"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp">-->
+        <!--<Button-->
+            <!--android:id="@+id/bt_scanner_one"-->
+            <!--android:layout_margin="40dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="@string/warehouse_track"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:background="@color/colortest_middleblue"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>
+
+
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/bt_scanner_two"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:text="二維碼"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_above="@+id/bt_scanner_one"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colortest_middleblue"
+        />
+
+    <Button
+        android:id="@+id/bt_scanner_one"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="130dp"
+        android:text="條形碼"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/bt_scanner_two"
+        android:background="@color/colortest_middleblue"
+        />
+
+    <TextView
+        android:id="@+id/tv_Scanner_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:text="掃描客戶碼"
+        android:textColor="@color/black"
+        />
+</RelativeLayout>-->

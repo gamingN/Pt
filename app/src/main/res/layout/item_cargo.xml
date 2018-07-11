@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_root"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_cargo_id"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:textColor="#585858"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/ib_warehouse_cargo_reduce"
+        android:background="@mipmap/ib_warehouse_item_reduce_disable"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <EditText
+        android:id="@+id/et_cargo_count"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_weight="1"
+        android:background="@drawable/et_warehouse_country_item"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:inputType="numberDecimal"
+        android:layout_width="0dp"
+        android:textColor="#b7b7b7"
+        android:textSize="26sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="KG"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <ImageButton
+        android:id="@+id/ib_warehouse_cargo_add"
+        android:background="@mipmap/ib_warehouse_item_add_disable"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    </LinearLayout>
+</LinearLayout>
